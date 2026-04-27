@@ -2,6 +2,9 @@
 
 Esta guía detalla el proceso de configuración de un laboratorio de SOC (Security Operations Center) utilizando recursos de Azure, Microsoft Sentinel y Log Analytics.
 
+![Diagrama de la Arquitectura](./img/img_1.jpg)
+
+
 ## 1. Configuración de la Infraestructura Base
 
 ### Crear el Grupo de Recursos y Red Virtual
@@ -12,8 +15,6 @@ Esta guía detalla el proceso de configuración de un laboratorio de SOC (Securi
 * Crear una máquina virtual llamada `CORP-NET-HH-1`.
 * **Sistema Operativo:** Seleccionar Windows 10 Enterprise (versión 22H2).
 * **Verificación:** Una vez creada, confirmar en el panel de Azure que el estado es "Running" y todos los recursos asociados (IP pública, NSG, Disco) se han desplegado correctamente.
-
-![Crear la Máquina Virtual](./img/paso_2.png)
 
 ## 2. Configuración de Seguridad y Exposición
 
@@ -66,3 +67,5 @@ WindowsEvents
 | project FailureCount, AttackerIp = IpAddress, latitude, longitude, city = cityname, country = countryname,
 friendly_location = strcat(cityname, " (", countryname, ")");
 ```
+
+![Mapa de Ataques](./img/img_2.png)
