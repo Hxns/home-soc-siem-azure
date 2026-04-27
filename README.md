@@ -5,6 +5,11 @@ Esta guía detalla el proceso de configuración de un laboratorio de SOC (Securi
 ![Diagrama de la Arquitectura](./img/img_1.jpg)
 
 
+## 📺 Demostración en Vivo
+¿Quieres ver el SOC capturando ataques en tiempo real? He subido un video demostrativo a LinkedIn donde muestro el funcionamiento del mapa y la telemetría:
+
+[![Ver Video en LinkedIn](https://img.shields.io/badge/Ver_Video_en-LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/posts/herzfelder_i-managed-to-centralize-the-attack-telemetry-ugcPost-7454326882969399297-aCju?utm_source=share&utm_medium=member_desktop&rcm=ACoAACaCVd0BH6HmwbuNhJARldHYbhYDBgN309M)
+
 ## 1. Configuración de la Infraestructura Base
 
 ### Crear el Grupo de Recursos y Red Virtual
