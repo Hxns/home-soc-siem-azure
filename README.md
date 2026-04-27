@@ -13,6 +13,8 @@ Esta guía detalla el proceso de configuración de un laboratorio de SOC (Securi
 * **Sistema Operativo:** Seleccionar Windows 10 Enterprise (versión 22H2).
 * **Verificación:** Una vez creada, confirmar en el panel de Azure que el estado es "Running" y todos los recursos asociados (IP pública, NSG, Disco) se han desplegado correctamente.
 
+![Crear la Máquina Virtual](./img/paso2.png)
+
 ## 2. Configuración de Seguridad y Exposición
 
 Para que el laboratorio pueda recibir ataques (simulados o reales para monitoreo), es necesario ajustar las reglas de firewall.
